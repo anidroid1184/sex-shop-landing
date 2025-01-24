@@ -40,12 +40,12 @@ export default function RootLayout({
                     </Link>
                   </li>
                   <li>
-                    <Link href="#" className="text-gray-600 hover:text-purple-600">
+                    <Link href="/sobre-nosotros" className="text-gray-600 hover:text-purple-600">
                       Sobre Nosotros
                     </Link>
                   </li>
                   <li>
-                    <Link href="#" className="text-gray-600 hover:text-purple-600">
+                    <Link href="/contacto" className="text-gray-600 hover:text-purple-600">
                       Contacto
                     </Link>
                   </li>
@@ -66,17 +66,17 @@ export default function RootLayout({
                 <h4 className="text-xl font-semibold mb-4">Enlaces Rápidos</h4>
                 <ul className="space-y-2">
                   <li>
-                    <Link href="#" className="hover:text-pink-300">
+                    <Link href="/politica-de-privacidad" className="hover:text-pink-300">
                       Política de Privacidad
                     </Link>
                   </li>
                   <li>
-                    <Link href="#" className="hover:text-pink-300">
+                    <Link href="/terminos-y-condiciones" className="hover:text-pink-300">
                       Términos y Condiciones
                     </Link>
                   </li>
                   <li>
-                    <Link href="#" className="hover:text-pink-300">
+                    <Link href="/faq" className="hover:text-pink-300">
                       FAQ
                     </Link>
                   </li>
@@ -85,15 +85,30 @@ export default function RootLayout({
               <div>
                 <h4 className="text-xl font-semibold mb-4">Síguenos</h4>
                 <div className="flex space-x-4">
-                  <Link href="#" className="hover:text-pink-300">
+                  <a
+                    href="https://facebook.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-pink-300"
+                  >
                     Facebook
-                  </Link>
-                  <Link href="#" className="hover:text-pink-300">
+                  </a>
+                  <a
+                    href="https://instagram.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-pink-300"
+                  >
                     Instagram
-                  </Link>
-                  <Link href="#" className="hover:text-pink-300">
+                  </a>
+                  <a
+                    href="https://twitter.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-pink-300"
+                  >
                     Twitter
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
